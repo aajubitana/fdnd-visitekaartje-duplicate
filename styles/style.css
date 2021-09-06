@@ -10,7 +10,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color:#021602;
 }
 
 article {
@@ -21,8 +21,8 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(62, 211, 3);
+  background: linear-gradient(0deg, rgb(195, 145, 197) 40%, #4e54c8 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -39,7 +39,7 @@ header {
 }
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(46, 216, 24);
 }
 button {
   border:none;
@@ -49,21 +49,21 @@ button {
   width:2.5rem;
   height:2.5rem;
   transform: scale(.8);
-  background: rgba(0,239,255,1);
-  border-radius:50%;
+  background: rgb(252, 130, 16);
+  border-radius:60%;
   padding:.25rem;
   transition:.25s;
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background:#b1b4eb;
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(0, 2, 2);
 }
 
 svg {
-  stroke: #4e54c8;
+  stroke: #34640d;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -87,7 +87,7 @@ img {
 }
 dl {
   width:100%;
-  background: rgb(255,255,255);
+  background: rgb(141, 255, 230);
   
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
